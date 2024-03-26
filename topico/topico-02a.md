@@ -6,7 +6,6 @@
 #### <ins>EXERCÍCIO:</ins> Qual a distinção entre ?
 - Esquema conceitual, esquema lógico e esquema físico.
 - Requisitos de software e requisitos de dados.
-- Independência lógica e independência física.
 - Dado e metadado.
 - Definição, construção e manipulação de banco de dados.
 - Banco de dados e sistema gerenciador de banco de dados.
