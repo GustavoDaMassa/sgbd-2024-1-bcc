@@ -29,7 +29,7 @@ Requisitos <ins>ideais</ins> de uma memória (apenas teórico):
 
 A cada 'necessidade de processamento':
 - a CPU acessa os dados em memória principal (volátil);
-- <ins>aplicações de banco de dados</ins> utilizam uma pequena parte do banco de dados.
+- <ins>aplicações de banco de dados</ins>, em geral, utilizam uma pequena parte do banco de dados.
 
 Dados persistentes _vs._ dados transitórios:
 - bancos de dados residem em armazenamento secundário (não volátil);
