@@ -55,7 +55,7 @@ Contradição para os requisitos de uma memória:
 
 #### &#x267B;&#x26BE;&#x270D; <ins>HIERARQUIA DE MEMÓRIA</ins>:
 - organização em níveis de memória;
-- cada nível contêm uma cópia <ins>das **instruções** (código) e dos **dados**</ins> mais usados em cada instante; 
+- cada nível contem uma cópia <ins>das **instruções** (código) e dos **dados**</ins> mais usados em cada instante; 
 - quanto mais "perto" a memória se encontra do processador, mais rápido será o acesso aos dados (<ins>maior o custo</ins> por byte, <ins>menor a capacidade</ins> de armazenamento).
 
 <img src="../media/memoria-hierarquia-1.jpg" width="400"><img src="../media/memoria-hierarquia-2.jpg" width="300">
