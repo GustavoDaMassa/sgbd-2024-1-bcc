@@ -69,7 +69,7 @@ Nas figuras acima:
 #### &#x267B;&#x26BE;&#x270D; <ins>PRINCÍPIO DA LOCALIDADE</ins>:
 
 A hierarquia de memória objetiva que:
-- a grande maioria dos dados/instruções `'necessários'` estejam disponíveis nos níveis de memória mais altos (cache, memória principal), e pouquíssimos acessos sejam mandatórios à memória secundária.
+- a grande maioria dos dados/instruções `'necessários'` esteja disponível nos níveis de memória mais altos (cache, memória principal), e pouquíssimos acessos sejam mandatórios à memória secundária.
 - a maioria dos programas apresenta características de localidade.
 
 ```diff
