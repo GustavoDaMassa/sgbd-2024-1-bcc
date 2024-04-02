@@ -10,17 +10,18 @@ O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano.pdf
 
 ### Tópicos ativos
 
-- [Tópico 01](./topico/topico-01.md)
-- [Tópico 02a](./topico/topico-02a.md)
-- [Tópico 02b](./topico/topico-02b.md)
-- [Tópico 02c](./topico/topico-02c.md)
-- [Tópico 02d](./topico/topico-02d.md)
+- [Tópico 03](./topico/topico-03.md)
 - [Todos os tópicos](topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 
 ### Avisos ativos
 
-- Ao criar uma _**issue**_, selecione um dos _**templates**_:
+- EVENTO &#8212; **`24º Simpósio Brasileiro de Computação Aplicada à Saúde (SBCAS)`**
+  - Período: 25 a 28 de junho de 2024
+  - Local: Goiânia, Praça Universitária
+  - Site: [SBCAS](https://www.sbcas2024.inf.ufg.br)
+
+- ISSUE &#8212; Ao criar uma _**issue**_, selecione um dos _**templates**_:
   - **Dúvida em tópico específico**
   - **Dúvida fora do fluxo de tópicos**
 
