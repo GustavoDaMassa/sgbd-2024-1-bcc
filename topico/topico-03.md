@@ -20,7 +20,7 @@
 O desempenho de sistemas computacionais depende de três elementos fundamentais:
 - computação;
 - comunicação;
-- armazenamento (<ins>memórias</ins>):
+- armazenamento (<ins>memória</ins>):
   - <ins>elemento sensível</ins> em aplicações de banco de dados.
 
 Requisitos <ins>ideais</ins> de uma memória (apenas teórico):
