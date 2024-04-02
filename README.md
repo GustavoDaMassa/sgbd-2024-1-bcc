@@ -1,20 +1,20 @@
 ## SGBD - SISTEMAS GERENCIADORES DE BANCO DE DADOS, Oferta 2024/1, BCC
 
-### Bem-vindo(a)!
+### `Bem-vindo(a) !!`
 
 O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano.pdf).<br>
 
-### Para refletir...
+### `Para refletir ...`
 
 1. Qual a distinção entre _método de acesso_ e _organização de arquivo_?
 
-### Tópicos ativos
+### `Tópicos ativos ...`
 
 - [Tópico 03](./topico/topico-03.md)
 - [Todos os tópicos](topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 
-### Avisos ativos
+### `Avisos ativos ...`
 
 - EVENTO &#8212; **`24º Simpósio Brasileiro de Computação Aplicada à Saúde (SBCAS)`**
   - Período: 25 a 28 de junho de 2024
