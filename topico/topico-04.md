@@ -34,9 +34,9 @@ Vários blocos contíguos, denominados **_cluster_**, podem ser transferidos com
 &#9888; A CPU e o processador de E/S de disco são independentes (_as usual_).<br>
 
 Para lidar com a <ins>incompatibilidade de velocidades</ins> entre uma CPU e a memória secundária ...<br>
-&#9996; Duas operações <ins>em paralelo</ins> podem ocorrer:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&#9728; enquanto um _buffer_ está sendo lido ou gravado pelo processador de E/S;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&#9728; a CPU pode processar dados em outro _buffer_;
+&#9996; `Duas operações` <ins>em paralelo</ins> podem ocorrer:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; :red_circle: enquanto um _buffer_ está sendo lido ou gravado pelo processador de E/S;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; :red_circle: a CPU pode processar dados em outro _buffer_.
 
 #### &#x267B;&#x26BE;&#x270D; <ins>_DOUBLE BUFFERING_</ins>
 

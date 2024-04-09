@@ -29,7 +29,7 @@ Requisitos <ins>ideais</ins> de uma memória (apenas teórico):
 
 A cada 'necessidade de processamento':
 - a CPU acessa os dados em memória principal (volátil);
-- <ins>aplicações de banco de dados</ins> utilizam uma pequena parte do banco de dados.
+- <ins>aplicações de banco de dados</ins>, em geral, utilizam uma pequena parte do banco de dados.
 
 Dados persistentes _vs._ dados transitórios:
 - bancos de dados residem em armazenamento secundário (não volátil);
@@ -55,7 +55,7 @@ Contradição para os requisitos de uma memória:
 
 #### &#x267B;&#x26BE;&#x270D; <ins>HIERARQUIA DE MEMÓRIA</ins>:
 - organização em níveis de memória;
-- cada nível contêm uma cópia <ins>das **instruções** (código) e dos **dados**</ins> mais usados em cada instante; 
+- cada nível contem uma cópia <ins>das **instruções** (código) e dos **dados**</ins> mais usados em cada instante; 
 - quanto mais "perto" a memória se encontra do processador, mais rápido será o acesso aos dados (<ins>maior o custo</ins> por byte, <ins>menor a capacidade</ins> de armazenamento).
 
 <img src="../media/memoria-hierarquia-1.jpg" width="400"><img src="../media/memoria-hierarquia-2.jpg" width="300">
@@ -69,7 +69,7 @@ Nas figuras acima:
 #### &#x267B;&#x26BE;&#x270D; <ins>PRINCÍPIO DA LOCALIDADE</ins>:
 
 A hierarquia de memória objetiva que:
-- a grande maioria dos dados/instruções estejam disponíveis nos níveis de memória mais altos (cache, memória principal), e pouquíssimos acessos sejam necessários à memória secundária.
+- a grande maioria dos dados/instruções `'necessários'` esteja disponível nos níveis de memória mais altos (_cache_, memória principal), e pouquíssimos acessos sejam mandatórios à memória secundária.
 - a maioria dos programas apresenta características de localidade.
 
 ```diff
@@ -107,7 +107,8 @@ A maioria dos programas apresenta características de localidade, felizmente:
 #### &#x267B;&#x26BE;&#x270D; <ins>PARA RESPONDER:<br>Analise as respostas às questões abaixo.</ins>
 
 <ins>(Questão 01)</ins> Que características um programa deve ter para que o uso de memória _cache_ seja muito vantajoso?
-- O programa deve ter trechos pequenos que sejam executados várias vezes, e os dados devem estar localizados próximos uns dos outros OU dados e instruções devem ter localidade espacial (próximos uns dos outros) e localidade temporal (serem usados várias vezes em um certo instante de tempo).
+- O programa deve ter trechos pequenos que sejam executados várias vezes, e os dados devem estar localizados próximos uns dos outros; OU
+- Dados e instruções devem ter localidade espacial (próximos uns dos outros) e localidade temporal (serem usados várias vezes em um certo instante de tempo).
 
 <ins>(Questão 02)</ins> Se registradores do processador e a memória _cache_ operassem com os mesmos tempos de acesso, ainda haveria vantagem em se utilizar a memória _cache_? E se a memória _cache_ e a memória principal operassem com os mesmos tempos de acesso, ainda haveria vantagem em se utilizar a memória _cache_? 
 - se os registradores do processador e a memória _cache_ têm o mesmo tempo de acesso , ainda assim seria vantajoso utilizar _cache_, porque o seu objetivo é justamente fornecer dados e instruções na velocidade do processador;
