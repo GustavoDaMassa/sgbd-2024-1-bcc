@@ -1,4 +1,4 @@
-## [Tópico 08] - Estruturas de armazenamento (6/10)
+# [Tópico 08] - Estruturas de armazenamento (6/10)
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 ### <ins>CONTEÚDO</ins>
