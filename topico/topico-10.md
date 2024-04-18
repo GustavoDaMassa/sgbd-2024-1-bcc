@@ -20,7 +20,7 @@
 
 Para a organização de dados baseada <ins>_hashing_ em memória secundária</ins> - **_HASHING_ EXTERNO** - utiliza-se o <ins>conceito _Bucket_</ins>:
 - Um <ins>_bucket_</ins> é um bloco de disco, ou um _cluster_ de blocos de disco contíguos.
-- A **função _hash_** <ins>**MAPEIA**</ins> um valor do **campo _hash_** para um <ins>número relativo de _bucket_</ins> (<ins>endereço lógico</ins>), em vez de atribuir um endereço abssoluto (<ins>endereço físico</ins>) ao _bucket_:
+- A **função _hash_** <ins>**MAPEIA**</ins> um valor do **campo _hash_** para um <ins>número relativo de _bucket_</ins> (<ins>endereço lógico</ins>), em vez de atribuir um endereço absoluto (<ins>endereço físico</ins>) ao _bucket_:
 - Uma tabela [no cabeçalho do arquivo] <ins>mapeia</ins> o endereço lógico do _bucket_ para o endereço físico do _bucket_.
 
 <img src="../media/arquivo-15.jpg" width="400">
