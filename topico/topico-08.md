@@ -35,7 +35,7 @@
 - Por exemplo:
   - o campo de ordenação é _Nome_ (nome de cliente);
   - uma consulta requer os dados de clientes cujo valor do Atributo _Nome_ inicie com 'Ana Maria';
-  - a leitura dos dados é eficiente, pois nunhuma classificação de dados é necessária.
+  - a leitura dos dados é eficiente, pois nenhuma classificação de dados é necessária.
 - [Padrão de] predicado de busca:
   - &#x269E; _atributo = valor_ &#x269F;
   - &#x269E; _valor1 < atributo < valor2_ &#x269F;
@@ -46,7 +46,7 @@
 &#x267B; <ins>**Cenário de busca binária:**</ins> Leitura de registro baseada no valor da <ins>**chave** de ordenação</ins>:
 - Melhor desempenho que busca linear.
 - É possível ter busca binária em memória secundária?
-  - **premissa:** os endereços [em memória secundária (disco)] dos blocos do arquivo são conhecidos ...
+  - **premissa:** os endereços dos blocos do arquivo [em memória secundária (disco)] são conhecidos ...
 
 #### &#x267B;&#x26BE;&#x270D; <ins>BUSCA BINÁRIA EM MEMÓRIA SECUNDÁRIA</ins>
 
@@ -78,7 +78,7 @@ Exemplo de algoritmo de busca binária em memória secundária:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; ... é possível [um arquivo] ter duas ordenações (campos de ordenação distintos)?
 
 &#x26BE; <ins>Operação de **INCLUSÃO** de registro</ins>:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; A operação é em geral dispendiosa, pois é necessário <ins>manter o arquivo fisamente ordenado</ins>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; A operação é em geral dispendiosa, pois é necessário <ins>manter o arquivo fisicamente ordenado</ins>.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; É necessário <ins>encontrar a posição correta</ins> [para o novo registro], com base no valor do campo de ordenação.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; Resulta em <ins>mover registros entre blocos</ins> para liberar espaço [para o novo registro]:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; ... em média, <ins>metade dos registros</ins> deve ser movida;<br>

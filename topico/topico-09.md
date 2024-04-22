@@ -122,7 +122,7 @@ Cada <ins>método de tratamento (resolução) de colisão</ins> requer seus <ins
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x267B; **_Input_** é o espaço definido pelos valores do **campo hash**.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x26BE; <ins>se **K<sub>i</sub> > K<sub>j</sub>**, não é garantido que **h(K<sub>i</sub>) > h(K<sub>j</sub>)**</ins><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x26BE; algumas possibilidades (exemplos) para preservar a ordem</ins> de valores do **campo _hash_**:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x267B; digitos mais significativos (três díditos à esquerda) de um campo monetário;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x267B; dígitos mais significativos (três dígitos à esquerda) de um campo monetário;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x267B; campo auto-incremento.
 
 <hr style="border:2px solid blue">
