@@ -34,7 +34,7 @@ Em <ins>_hashing_ externo **dinâmico**</ins>:<br>
 É mantido um <ins>**DIRETÓRIO**</ins>, com os <ins>endereços [físicos] dos _buckets_</ins> do arquivo:<br>
 &#x270D; O diretório é um <ins>_array_</ins> que contém **<ins>2<sup>d</sup></ins> endereços de _buckets_**:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; por exemplo se d=3, então o arquivo possui até oito</ins> (2<sup>3</sup>=8) _buckets_ de alocados para dados;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; os três bits mais significativos da representação binária do valor da função hash ...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; os três bits menos significativos da representação binária do valor da função hash ...<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; ... são usados para as entradas do diretório ...<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; ... a saber: 000, 001, 010, 011, 100, 101, 110 e 111.<br>
 &#x270D; O <ins>fator **d**</ins> é denominado <ins>**profundidade global (_global depth_)** do diretório</ins>.
