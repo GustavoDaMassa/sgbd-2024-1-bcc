@@ -474,7 +474,8 @@ Ao inserir um novo registro em um <ins>_bucket_ cheio</ins>, onde <ins>d = d'</i
 Nenhum _bucket_ é <ins>alocado previamente</ins> para crescimento futuro:<br>
 &#x267B; Alocação _just-in-time_, alocação de _buckets_ conforme a demanda (no devido tempo, nem antes, nem depois).<br>
 &#x267B; A reorganização é localizada na maioria dos casos:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; registros são distribuídos entre _buckets_;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; registros são distribuídos entre dois _buckets_ (devido à inclusão de registro);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; um _bucket_ vazio pode ser liberado para o S.O. (devido à exclusão de registro);<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; eventualmente, o diretório precisará ser duplicado, ou reduzido pela metade.
 
 O diretório é acessado antes de acessar um _bucket_ de dados:<br>
