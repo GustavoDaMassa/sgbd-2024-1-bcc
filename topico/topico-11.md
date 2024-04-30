@@ -25,7 +25,7 @@ Em <ins>_hashing_ externo **dinâmico**</ins>:<br>
 &#9888; A estrutura de acesso é baseada na <ins>representação binária</ins> do resultado da **função _hash_**:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; o resultado da **função _hash_** é um número inteiro não negativo.<br>
 &#9888; A representação binária <ins>orienta a distribuição de registros</ins> nos _buckets_.<br>
-&#9888; Em geral, são utilizados os valores dos <ins>bits iniciais</ins> da representação binária.<br>
+&#9888; Em geral, são utilizados os valores dos <ins>bits iniciais</ins> (menos significativos) da representação binária.<br>
 &#9888; Exemplos de estratégias para _hashing_ externo **dinâmico**:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; <ins>_hashing_ extensível</ins>, <ins>_hashing_ linear</ins> e <ins>_hashing_ dinâmico</ins>.<br><br>
 
