@@ -67,7 +67,7 @@ Se um _bucket_ torna-se <ins>cheio</ins>:
 &#x267B; Localizar o _bucket_, conforme descrito acima.<br>
 &#x267B; Se o _bucket_ **NÃO POSSUIR** <ins>lista ligada de _buckets_ de _overflow_</ins>:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x26BE; remover o registro do _bucket_ (caso exista).<br>
-&#x267B; Se o _bucket_ **POSSUIR** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x26BE; :<br>
+&#x267B; Se o _bucket_ **POSSUIR** <ins>lista ligada de _buckets_ de _overflow_</ins>:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x26BE; se o registro <ins>estiver no _bucket_</ins>:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; remover o registro do _bucket_; e<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; mover um dos registros da lista para o _bucket_, visando a substituir o registro excluído.<br>

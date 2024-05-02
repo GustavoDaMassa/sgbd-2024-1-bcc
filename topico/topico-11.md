@@ -25,7 +25,7 @@ Em <ins>_hashing_ externo **dinâmico**</ins>:<br>
 &#9888; A estrutura de acesso é baseada na <ins>representação binária</ins> do resultado da **função _hash_**:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; o resultado da **função _hash_** é um número inteiro não negativo.<br>
 &#9888; A representação binária <ins>orienta a distribuição de registros</ins> nos _buckets_.<br>
-&#9888; Em geral, são utilizados os valores dos <ins>bits iniciais</ins> da representação binária.<br>
+&#9888; Em geral, são utilizados os valores dos <ins>bits iniciais</ins> (menos significativos) da representação binária.<br>
 &#9888; Exemplos de estratégias para _hashing_ externo **dinâmico**:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; <ins>_hashing_ extensível</ins>, <ins>_hashing_ linear</ins> e <ins>_hashing_ dinâmico</ins>.<br><br>
 
@@ -34,7 +34,7 @@ Em <ins>_hashing_ externo **dinâmico**</ins>:<br>
 É mantido um <ins>**DIRETÓRIO**</ins>, com os <ins>endereços [físicos] dos _buckets_</ins> do arquivo:<br>
 &#x270D; O diretório é um <ins>_array_</ins> que contém **<ins>2<sup>d</sup></ins> endereços de _buckets_**:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; por exemplo se d=3, então o arquivo possui até oito</ins> (2<sup>3</sup>=8) _buckets_ de alocados para dados;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; os três bits mais significativos da representação binária do valor da função hash ...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; os três bits menos significativos da representação binária do valor da função hash ...<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; ... são usados para as entradas do diretório ...<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9888; ... a saber: 000, 001, 010, 011, 100, 101, 110 e 111.<br>
 &#x270D; O <ins>fator **d**</ins> é denominado <ins>**profundidade global (_global depth_)** do diretório</ins>.
@@ -474,7 +474,8 @@ Ao inserir um novo registro em um <ins>_bucket_ cheio</ins>, onde <ins>d = d'</i
 Nenhum _bucket_ é <ins>alocado previamente</ins> para crescimento futuro:<br>
 &#x267B; Alocação _just-in-time_, alocação de _buckets_ conforme a demanda (no devido tempo, nem antes, nem depois).<br>
 &#x267B; A reorganização é localizada na maioria dos casos:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; registros são distribuídos entre _buckets_;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; registros são distribuídos entre dois _buckets_ (devido à inclusão de registro);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; se um _bucket_ ficar vazio devido à exclusão de registro, este _bucket_ será liberado para o sistema operacional (ou seja, o _bucket_ será removido do arquivo); então, o diretório será atualizado;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; eventualmente, o diretório precisará ser duplicado, ou reduzido pela metade.
 
 O diretório é acessado antes de acessar um _bucket_ de dados:<br>
