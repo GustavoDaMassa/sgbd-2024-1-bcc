@@ -35,3 +35,10 @@ Um arquivo tem r = 40.000 registros ...<br>
 &#x26BE; (b): Função Piso &#8213; bfr = ⎣ B / R ⎦ = ⎣ 1024 / 90,15 ⎦ = ⎣ 11,36 ⎦ = 11 registros por bloco<br>
 &#x26BE; (c): ~~Função Teto &#8213; b = ⎡ (r * R) / bfr ⎤ = ⎡ 40000 * 89 / 1024 ⎤ = ⎡ 3476,6 ⎤ = 3477 blocos~~<br>
 &#x26BE; (c): Função Teto &#8213; b = ⎡ r / bfr ⎤ = ⎡ 40000  / 11 ⎤ = ⎡ 3636,36 ⎤ = 3637 blocos
+
+#### Avaliação em 02/05/2024
+
+Sobre o hashing externo ... <br>
+&#x26BE; A presença de buckets de overflow ...<br>
+Sobre a técnica hashing extensível ... <br>
+&#x26BE; \< n_enhuma alternativa verdadeira_ \>
