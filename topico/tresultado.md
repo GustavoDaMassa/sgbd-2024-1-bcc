@@ -41,4 +41,21 @@ Um arquivo tem r = 40.000 registros ...<br>
 Sobre o hashing externo ... <br>
 &#x26BE; A presença de buckets de overflow ...<br>
 Sobre a técnica hashing extensível ... <br>
-&#x26BE; \< n_enhuma alternativa verdadeira_ \>
+&#x26BE; \<\< _nenhuma alternativa verdadeira_ \>\><br>
+Sobre a técnica hashing linear ... <br>
+&#x26BE; Pode ocorrer que um ou mais ... <br>
+&#x26BE; Se um novo registro é inserido ... <br>
+&#x26BE; O tamanho máximo do diretório ... <br>
+Sobre a técnica hashing dinâmico ... <br>
+&#x26BE; Um diretório é estruturado ... <br>
+Sobre arquivos sequenciais ... <br>
+&#x26BE; As organizações de registros ... <br>
+&#x26BE; Os registros de ... <br>
+&#x26BE; Estruturas adicionais ... <br>
+Some as ... <br>
+&#x26BE; Após a divisão de ... <br>
+Some as ... <br>
+&#x26BE; A função h<sub>j+1</sub>(K) 
+
+
+
