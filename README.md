@@ -6,17 +6,15 @@ O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano.pdf
 
 ### `Para refletir ...`
 
-- Qual a distinção entre _método de acesso_ e _organização de arquivo_?
+- Qual a distinção entre _índice primário_, _índice de agrupamento_ e _índice secundário_?
 
 ### `Tópicos ativos ...`
 
-- [Tópico 06](./topico/topico-06.md)
-- [Tópico 07](./topico/topico-07.md)
-- [Tópico 08](./topico/topico-08.md)
-- [Tópico 09](./topico/topico-09.md)
-- [Tópico 10](./topico/topico-10.md)
 - [Tópico 11](./topico/topico-11.md)
 - [Tópico 12](./topico/topico-12.md)
+- [Tópico 13](./topico/topico-13.md)
+- [Tópico 14](./topico/topico-14.md)
+- [Tópico 15](./topico/topico-15.md)
 - [Todos os tópicos](topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 
