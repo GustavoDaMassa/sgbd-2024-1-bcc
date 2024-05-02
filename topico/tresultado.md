@@ -55,7 +55,8 @@ Sobre arquivos sequenciais ... <br>
 Some as ... <br>
 &#x26BE; Após a divisão de ... <br>
 Some as ... <br>
-&#x26BE; A função h<sub>j+1</sub>(K) 
+&#x26BE; A função h<sub>j+1</sub>(K) ...
+
 
 
 
