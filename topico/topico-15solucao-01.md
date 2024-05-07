@@ -20,4 +20,3 @@ UMA SOLUÇÃO:
 (f) Visto que há, em média, 300 registros por CEP, os registros com mesmo CEP podem estar dispersos em vários blocos de dados.<br>
 No pior caso, c<sub>dados</sub> = c<sub>i</sub> +  ⎡(300 / ⎣(B/R)⎦ )⎤ + 1, onde R é o tamanho do registro de dados.<br>
 (g) O arquivo de índice de agrupamento possui 3 blocos, então tais blocos ocupam 3 * 4 KBytes, ou seja, 12 KBytes.
-](https://github.com/plinioleitao/sgbd-2023-2-bcc/edit/main/topico/topico-15solucao-01.md)https://github.com/plinioleitao/sgbd-2023-2-bcc/edit/main/topico/topico-15solucao-01.md
