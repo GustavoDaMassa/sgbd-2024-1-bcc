@@ -43,7 +43,7 @@ O campo de indexação possui valor único entre os registros de dados:
   - por que ponteiro de bloco, em vez de ponteiro de registro?
 - O índice secundário é um <ins>índice denso</ins> (!?), conforme a figura abaixo (!?).
   - por que o índice secundário é um índice denso?
-    - os registros do arquivo de dados não são ordenados fisicamente pelos valores do campo de ordenação,
+    - os registros do arquivo de dados não são ordenados fisicamente pelos valores do campo de indexação,
     - ..... não é possível ter (usar) registros que são âncora de bloco, diferentemente de índices primários.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../media/arquivo-37.jpg" width="350">
