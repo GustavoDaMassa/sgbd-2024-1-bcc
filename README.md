@@ -7,14 +7,17 @@ O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano.pdf
 ### `Para refletir ...`
 
 - Qual a distinção entre _índice primário_, _índice de agrupamento_ e _índice secundário_?
+- Qual a distinção entre _índice multinível_ e _índice baseado em árvore de busca_?
 
 ### `Tópicos ativos ...`
 
-- [Tópico 11](./topico/topico-11.md)
-- [Tópico 12](./topico/topico-12.md)
-- [Tópico 13](./topico/topico-13.md)
 - [Tópico 14](./topico/topico-14.md)
 - [Tópico 15](./topico/topico-15.md)
+- [Tópico 16](./topico/topico-16.md)
+- [Tópico 17](./topico/topico-17.md)
+- [Tópico 18](./topico/topico-18.md)
+- [Tópico 19](./topico/topico-19.md)
+- [Tópico 20](./topico/topico-20.md)
 - [Todos os tópicos](topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 
