@@ -175,6 +175,8 @@ Determine:
 #### &#x270D;&#x270D; `Breve comentário` sobre <ins>Árvore B como organização de arquivos de dados</ins>:<br>
 
 &#9745; Registros completos [de dados] são armazenados nos nós da árvore B, em vez de apenas <chave de pesquisa, ponteiro de dados>:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8658; **Contexto:** arquivos com número relativamente pequeno de registros,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8658; **Contexto:**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... arquivos com número relativamente pequeno de registros,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... e registros de tamanho reduzido,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... para evitar número de níveis elevado, o que impactaria ter acesso eficiente.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... para evitar o aumento do número de níveis da árvore,<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... que impactaria à eficiência de acesso.
