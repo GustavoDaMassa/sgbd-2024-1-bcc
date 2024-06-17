@@ -67,8 +67,8 @@ Some as ... <br>
 
 Nível 01: Um arquivo ordenado com 04 blocos.<br>
 Nível 02: Um índice primário com 01 (um) bloco.<br><br>
-Custo da pesquisa via Nível 01: log<sub>2</sub>4 = 2 blocos.<br>
-Custo da pesquisa via Níveis 02 e 01: 1 + 1 = 2 blocos.
+Custo da pesquisa via índice de único nível (Nível 01): log<sub>2</sub>4 = 2 blocos.<br>
+Custo da pesquisa via índice multinível (Níveis 02 e 01): 1 + 1 = 2 blocos.
 
 5. O índice primário produz acesso de menor custo ao arquivo de dados.<br>
 O número de registros (entradas) no índice primário é o número de blocos do arquivo de dados.<br><br>
