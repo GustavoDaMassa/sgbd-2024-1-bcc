@@ -66,7 +66,7 @@ Some as ... <br>
 <img src="../media/fig-indice-multinivel-9.jpg" width="90">
 
 Nível 01: Um arquivo ordenado com 04 blocos.<br>
-Nível 02: Um índice primário com 01 (um) bloco.<br><br>
+Nível 02: Um arquivo ordenado com 01 (um) bloco.<br><br>
 Custo da pesquisa via índice de único nível (Nível 01): log<sub>2</sub>4 = 2 blocos.<br>
 Custo da pesquisa via índice multinível (Níveis 02 e 01): 1 + 1 = 2 blocos.
 
