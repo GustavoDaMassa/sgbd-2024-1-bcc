@@ -71,7 +71,8 @@ Custo da pesquisa via índice de único nível (Nível 01): log<sub>2</sub>4 = 2
 Custo da pesquisa via índice multinível (Níveis 02 e 01): 1 + 1 = 2 blocos.
 
 5. O índice primário produz acesso de menor custo ao arquivo de dados.
-O número de registros (entradas) no índice primário é o número de blocos do arquivo de dados.<br>
+O número de registros (entradas) no índice primário é o número de blocos do arquivo de dados.
+
 Sejam:<br>
 r<sub>p</sub> o número de registros do arquivo de índice primário<br>
 r<sub>a</sub> o número de registros do arquivo de índice de agrupamento<br>
