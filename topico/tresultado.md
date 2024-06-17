@@ -62,8 +62,8 @@ Some as ... <br>
 1. Índice primário; índice de agrupamento; índice secundário.
 2. Índice secundário.
 3. Índice secundário.
-4. <img src="../media/arquivo-38.jpg" width="400">
-
+4.
+<img src="../media/fig-indice-multinivel-9.jpg" width="400">
 
 Cenário: Um índice multinível com dois níveis.<br>		
 Nível 01: Um arquivo ordenado com 04 blocos.<br>
