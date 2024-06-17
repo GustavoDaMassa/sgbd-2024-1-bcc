@@ -79,5 +79,5 @@ Sejam:	r<sub>p</sub> o número de registros do arquivo de índice primário<br>
 Então:<br>
 r<sub>p</sub> < r<sub>a</sub> ; possivelmente b<sub>p</sub> < b<sub>a</sub> ; possivelmente log<sub>2</sub> b<sub>p</sub> < log<sub>2</sub> b<sub>a</sub><br><br>
 Em adição:<br>
-O número de blocos de dados acessados a partir do índice primário: 01 bloco.<br>
-O número de blocos de dados acessados a partir do índice primário: pode ser maior que 01 bloco.
+O número de blocos de dados acessados via índice primário: 01 bloco.<br>
+O número de blocos de dados acessados via índice de agrupamento: pode ser maior que 01 bloco.
