@@ -62,9 +62,9 @@ Some as ... <br>
 1. Índice primário; índice de agrupamento; índice secundário.
 2. Índice secundário.
 3. Índice secundário.
-4.
-Cenário: Um índice multinível com dois níveis.<br>
+4. Cenário: Um índice multinível com dois níveis.<br>
 <img src="../media/fig-indice-multinivel-9.jpg" width="100">
+
 Nível 01: Um arquivo ordenado com 04 blocos.<br>
 Nível 02: Um índice primário com 01 (um) bloco.<br><br>
 Custo da pesquisa via Nível 01: log24 = 2 blocos.<br>
