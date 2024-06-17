@@ -63,7 +63,7 @@ Some as ... <br>
 2. Índice secundário.
 3. Índice secundário.
 4.
-<img src="../media/fig-indice-multinivel-9.jpg" width="400">
+<img src="../media/fig-indice-multinivel-9.jpg" width="100">
 
 Cenário: Um índice multinível com dois níveis.<br>		
 Nível 01: Um arquivo ordenado com 04 blocos.<br>
