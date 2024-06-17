@@ -57,6 +57,14 @@ Some as ... <br>
 Some as ... <br>
 &#x26BE; A função h<sub>j+1</sub>(K) ...
 
+#### Avaliação em 13/06/2024
 
-
+1. Índice primário; índice de agrupamento; índice secundário.
+2. Índice secundário.
+3. Índice secundário.
+4. Cenário: Um índice multinível com dois níveis.<br>		
+Nível 01: Um arquivo ordenado com 04 blocos.<br>
+Nível 02: Um índice primário com 01 (um) bloco.<br><br>
+Custo da pesquisa via Nível 01: log24 = 2 blocos.<br>
+Custo da pesquisa via Níveis 02 e 01: 1 + 1 = 2 blocos.
 
