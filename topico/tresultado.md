@@ -63,10 +63,21 @@ Some as ... <br>
 2. Índice secundário.
 3. Índice secundário.
 4. Cenário: Um índice multinível com dois níveis.<br>
-<img src="../media/fig-indice-multinivel-9.jpg" width="100">
+<img src="../media/fig-indice-multinivel-9.jpg" width="60">
 
 Nível 01: Um arquivo ordenado com 04 blocos.<br>
 Nível 02: Um índice primário com 01 (um) bloco.<br><br>
-Custo da pesquisa via Nível 01: log24 = 2 blocos.<br>
+Custo da pesquisa via Nível 01: log<sup>2</sup>4 = 2 blocos.<br>
 Custo da pesquisa via Níveis 02 e 01: 1 + 1 = 2 blocos.
+5. O índice primário produz acesso de menor custo ao arquivo de dados.<br>
+O número de registros (entradas) no índice primário é o número de blocos do arquivo de dados.<br><br>
+Sejam:	r<sup>p</sup> o número de registros do arquivo de índice primário<br>
+	r<sup>a</sup> o número de registros do arquivo de índice de agrupamento<br>
+	b<sup>p</sup> o número de blocos do arquivo de índice primário<br>
+	b<sup>a</sup> o número de blocos do arquivo de índice de agrupamento<br><br>
+Então:<br>
+r<sup>p</sup> < r<sup>a</sup> ; possivelmente b<sup>a</sup> < b<sup>p</sup> ; possivelmente log<sup>2</sup> b<sup>p</sup> < log<sup>2</sup> b<sup>a</sup><br><br>
+Em adição:<br>
+O número de blocos de dados acessados a partir do índice primário: 01 bloco.<br>
+O número de blocos de dados acessados a partir do índice primário: pode ser superior a 01 bloco.
 
