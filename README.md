@@ -11,7 +11,6 @@ O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano.pdf
 
 ### `Tópicos ativos ...`
 
-- [Tópico 18](./topico/topico-18.md)
 - [Tópico 19](./topico/topico-19.md)
 - [Tópico 20](./topico/topico-20.md)
 - [Tópico 21](./topico/topico-21.md)
