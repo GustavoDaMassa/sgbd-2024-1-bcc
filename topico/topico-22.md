@@ -24,11 +24,20 @@
 
 #### &#10004; <ins>`TRANSAÇÃO DE BD — Exemplo`</ins><br>
 
+**`Script para SQL SERVER`**
 ```
+DROP TABLE IF EXISTS CONTA_CORRENTE;
+CREATE TABLE CONTA_CORRENTE (numConta char(6), saldoConta money);
+BEGIN TRANSACTION;
+INSERT INTO CONTA_CORRENTE VALUES ('029820', 10000.00);
+INSERT INTO CONTA_CORRENTE VALUES ('407302', 10000.00);
+COMMIT TRANSACTION;
+SELECT * FROM CONTA_CORRENTE;
+
 declare @contaDe char(6), @contaPara char(6), @Valor money;
 set @contaDe= '029820';
 set @contaPara= '407302';
-set @Valor= 1200.00;
+set @Valor= 1200.99;
 BEGIN TRANSACTION;
 UPDATE CONTA_CORRENTE
   set saldoConta= saldoConta - @Valor
@@ -37,7 +46,7 @@ UPDATE CONTA_CORRENTE
   set saldoConta= saldoConta + @Valor
   where numConta = @contaPara;
 COMMIT;
-go
+SELECT * FROM CONTA_CORRENTE;
 ```
 <hr style="border:2px solid blue">
 
