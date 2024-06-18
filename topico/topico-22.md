@@ -68,6 +68,7 @@ SAVEPOINT Save1;
 UPDATE TABELA SET Valor = 200 WHERE Valor = 2;
 ROLLBACK TO Save1;
 COMMIT TRANSACTION;
+SELECT * FROM TABELA;
 ```
 
 #### &#10004; <ins>`TRANSAÇÃO DE BD — Modelo para processamento`</ins><br>
