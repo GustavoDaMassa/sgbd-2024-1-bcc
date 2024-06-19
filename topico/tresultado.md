@@ -57,6 +57,29 @@ Some as ... <br>
 Some as ... <br>
 &#x26BE; A função h<sub>j+1</sub>(K) ...
 
+#### Avaliação em 13/06/2024
 
+1. Índice primário; índice de agrupamento; índice secundário.
+2. Índice secundário.
+3. Índice secundário.
+4. Cenário: Um índice multinível com dois níveis.<br>
+<img src="../media/fig-indice-multinivel-9.jpg" width="90">
 
+Nível 01: Um arquivo ordenado com 04 blocos.<br>
+Nível 02: Um arquivo ordenado com 01 (um) bloco.<br><br>
+Custo da pesquisa via índice de único nível (Nível 01): log<sub>2</sub>4 = 2 blocos.<br>
+Custo da pesquisa via índice multinível (Níveis 02 e 01): 1 + 1 = 2 blocos.
 
+5. O índice primário produz acesso de menor custo ao arquivo de dados.<br>
+O número de registros (entradas) no índice primário é o número de blocos do arquivo de dados.
+
+Sejam:<br>
+r<sub>p</sub> o número de registros do arquivo de índice primário<br>
+r<sub>a</sub> o número de registros do arquivo de índice de agrupamento<br>
+b<sub>p</sub> o número de blocos do arquivo de índice primário<br>
+b<sub>a</sub> o número de blocos do arquivo de índice de agrupamento<br>
+Então:<br>
+**r<sub>p</sub> < r<sub>a</sub>** ; possivelmente **b<sub>p</sub> < b<sub>a</sub>** ; possivelmente **log<sub>2</sub> b<sub>p</sub> < log<sub>2</sub> b<sub>a</sub><br>**
+Em adição:<br>
+O número de blocos de dados acessados via índice primário: 01 bloco.<br>
+O número de blocos de dados acessados via índice de agrupamento: pode ser maior que 01 bloco.
