@@ -23,7 +23,7 @@ Segundo a propriedade DURABIDADE para transações de banco de dados (ver [Tópi
 + Os escalonamentos que, teoricamente, atendem a esse critério são chamados de escalonamentos RECUPERÁVEIS.
 - Se um transação confirmada necessitar ser revertida, o escalonamento é NÃO-RECUPERÁVEL.
 
-+ Em um escalonamente recuperável, nenhuma transação confirmada precisa ser revertida ??
++ Em um escalonamento recuperável, nenhuma transação confirmada precisa ser revertida ??
 
 ! Assim, é fundamental caracterizar os escalonamentos para os quais a recuperação é possível ...
 # ... pois escalonamentos não-recuperáveis não devem ser permitidos (escolhidos) pelo SGBD.
