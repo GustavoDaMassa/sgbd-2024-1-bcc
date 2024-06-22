@@ -100,15 +100,15 @@ B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
 |-|-|
 |**p<sub>folha</sub> = p = piso (1040 / 22)**|( p<sub>folha</sub> * (P<sub>d</sub> + V) ) + P<sub>a</sub> &#8804; B<br>( p<sub>folha</sub> * (7 + 9) ) + 6 &#8804; 1024<br>16p<sub>folha</sub> &#8804; 1018 &#8756; **p<sub>folha</sub> = piso (1018 / 16 )**|
 
-1. **(c)** A quantidade **n<sub>0</sub>** de valores do campo de indexação no Nível 0 da árvore (nó raiz).
+1. **(c)** A quantidade **n<sub>0</sub>** de valores do campo de indexação no **Nível 0** da árvore (nó raiz).
 
 |Árvore B|Árvore B<sup>+</sup>|
 |-|-|
-|Há apenas um nó (nó raiz).<br>n<sub>0</sub> = (0,7 * p) - 1<br>**n<sub>0</sub> = (0,7 * piso (1040 / 22)) - 1**|Há apenas um nó (nó raiz).<br>n<sub>0</sub> = (0,7 * p) - 1<br>**n<sub>0</sub> = (0,7 * piso (1033 / 15)) - 1**|
+|Há apenas um nó (Nível 0).<br>n<sub>0</sub> = (0,7 * p) - 1<br>**n<sub>0</sub> = (0,7 * piso (1040 / 22)) - 1**|Há apenas um nó (Nível 0).<br>n<sub>0</sub> = (0,7 * p) - 1<br>**n<sub>0</sub> = (0,7 * piso (1033 / 15)) - 1**|
 
-1. **(d)** A quantidade **n<sub>1</sub>** de valores do campo de indexação no Nível 1 da árvore (nós folhas).
+1. **(d)** A quantidade **n<sub>1</sub>** de valores do campo de indexação no **Nível 1** da árvore (nós folhas).
 
 |Árvore B|Árvore B<sup>+</sup>|
 |-|-|
-|||
+|Há xx nós (Nível 1).<br>|Há xx nós (Nível 1).<br>|
 
