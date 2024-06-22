@@ -104,7 +104,7 @@ B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
 
 |Árvore B|Árvore B<sup>+</sup>|
 |-|-|
-|Nós 70% cheios, então:<br>&#9888; **p = 0,7 * piso(1040/22)**<br>Há apenas um nó em Nível 0.<br>n<sub>0</sub> = p - 1<br>**n<sub>0</sub> = (0,7 * piso(1040/22)) - 1**|Nós 70% cheios, então:<br>&#9888; **p = 0,7 * piso(1033/22)**<br>Há apenas um nó em Nível 0.<br>n<sub>0</sub> = (0,7 * p) - 1<br>**n<sub>0</sub> = (0,7 * piso(1033/15)) - 1**|
+|Nós 70% cheios, então:<br>&#9888; **p = 0,7 * piso(1040/22)**<br>Há apenas um nó em Nível 0.<br>n<sub>0</sub> = p - 1<br>**n<sub>0</sub> = (0,7 * piso(1040/22)) - 1**|Nós 70% cheios, então:<br>&#9888; **p = 0,7 * piso(1033/22)**<br>Há apenas um nó em Nível 0.<br>n<sub>0</sub> = p - 1<br>**n<sub>0</sub> = (0,7 * piso(1033/15)) - 1**|
 
 1. **(d)** A quantidade **n<sub>1</sub>** de valores do campo de indexação no **Nível 1** da árvore (nós folhas).
 
