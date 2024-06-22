@@ -110,5 +110,5 @@ B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
 
 |Árvore B|Árvore B<sup>+</sup>|
 |-|-|
-|Há (0.7 * p) nós em Nível 1.<br>Cada nó possui (p<sub>folha</sub> – 1) valores do campo de indexação.<br>n<sub>1</sub> = (0.7 * p) * (p<sub>folha</sub> – 1)<br>**n<sub>1</sub> = (0.7 * piso (1040/22)) * (piso (1040/22) – 1)**|Há (0.7 * p) nós em Nível 1.<br>Cada nó possui (p<sub>folha</sub>) valores do campo de indexação.<br>**n<sub>1</sub> = (0.7 * piso (1033/15)) * (piso (1018/16))**|
+|Há (0.7 * p) nós em Nível 1.<br>Cada nó possui (p<sub>folha</sub> – 1) valores do campo de indexação.<br>n<sub>1</sub> = (0.7 * p) * (0.7 *(p<sub>folha</sub>) – 1)<br>**n<sub>1</sub> = (0.7 * piso (1040/22)) * ((0,7 * piso (1040/22)) – 1)**|Há (0.7 * p) nós em Nível 1.<br>Cada nó possui (p<sub>folha</sub>) valores do campo de indexação.<br>**n<sub>1</sub> = (0.7 * piso (1033/15)) * (0,7 * piso (1018/16)**|
 
