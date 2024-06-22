@@ -2,7 +2,7 @@
 
 Clique [AQUI](../media/sgbd-2024-1-bcc-resumo.pdf) para ver as notas.
 
-#### Avaliação em 11/04/2024
+#### `Avaliação em 11/04/2024`
 Para minimizar o impacto causado ... cache<br>
 O princípio da localidade pode ser ...<br>
 Se a memória principal e a memória cache ...<br>
@@ -15,7 +15,7 @@ Em registros de tamanho variável ... O espaço livre está ... A operação de 
 Uma página em cache do banco de dados ...<br>
 O Sistema Gerenciador de Banco de Dados ...
 
-#### Avaliação em 14/04/2024
+#### `Avaliação em 14/04/2024`
 
 Sobre arquivos não ordenados, são aplicáveis:<br>
 &#x26BE; As organizações de registros ...<br>
@@ -36,7 +36,7 @@ Um arquivo tem r = 40.000 registros ...<br>
 &#x26BE; (c): ~~Função Teto &#8213; b = ⎡ (r * R) / bfr ⎤ = ⎡ 40000 * 89 / 1024 ⎤ = ⎡ 3476,6 ⎤ = 3477 blocos~~<br>
 &#x26BE; (c): Função Teto &#8213; b = ⎡ r / bfr ⎤ = ⎡ 40000  / 11 ⎤ = ⎡ 3636,36 ⎤ = 3637 blocos
 
-#### Avaliação em 02/05/2024
+#### `Avaliação em 02/05/2024`
 
 Sobre o hashing externo ... <br>
 &#x26BE; A presença de buckets de overflow ...<br>
@@ -57,7 +57,7 @@ Some as ... <br>
 Some as ... <br>
 &#x26BE; A função h<sub>j+1</sub>(K) ...
 
-#### Avaliação em 13/06/2024
+#### `Avaliação em 13/06/2024`
 
 1. Índice primário; índice de agrupamento; índice secundário.
 2. Índice secundário.
@@ -84,8 +84,10 @@ Em adição:<br>
 O número de blocos de dados acessados via índice primário: 01 bloco.<br>
 O número de blocos de dados acessados via índice de agrupamento: pode ser maior que 01 bloco.
 
-#### Avaliação em 20/06/2024
+#### `Avaliação em 20/06/2024`
+
 B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
+
 1. **(a)** A ordem **p** para os nós internos.
 
 |Árvore B|Árvore B<sup>+</sup>|
