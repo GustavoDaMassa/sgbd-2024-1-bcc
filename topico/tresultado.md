@@ -85,7 +85,7 @@ O número de blocos de dados acessados via índice primário: 01 bloco.<br>
 O número de blocos de dados acessados via índice de agrupamento: pode ser maior que 01 bloco.
 
 #### Avaliação em 20/06/2024
-1. (a)
+1. (a)<br>B = 1024 bytes<br>V = 9 bytes<br>P<sub>a</sub> = 6 bytes<br>P<sub>d</sub> = 7 bytes
 
 |Árvore B|Árvore B<sup>+</sup>|
 |-|-|
