@@ -85,12 +85,14 @@ O número de blocos de dados acessados via índice primário: 01 bloco.<br>
 O número de blocos de dados acessados via índice de agrupamento: pode ser maior que 01 bloco.
 
 #### Avaliação em 20/06/2024
-1. B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
-
+B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
+1. (a) Calcule a ordem **p** para os nós internos.
+2. 
 |Árvore B|Árvore B<sup>+</sup>|
 |-|-|
 |((p-1) * V) + ((p-1) * P<sub>d</sub>)) + (p * P<sub>a</sub>) &#8804; B<br>(9p - 9) + (7p - 7) + (6p) &#8804; 1024<br>22p &#8804; 1040 &#8756; **p = piso (1040 / 22)**|((p-1) * V) + (p * P<sub>a</sub>) &#8804; B<br>(9p - 9) + (6p) &#8804; 1024<br>15p &#8804; 1033 &#8756; **p = piso (1033 / 15)**|
-|||
+
+
 
 
 
