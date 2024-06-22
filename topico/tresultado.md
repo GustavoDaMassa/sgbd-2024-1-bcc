@@ -86,15 +86,27 @@ O número de blocos de dados acessados via índice de agrupamento: pode ser maio
 
 #### Avaliação em 20/06/2024
 B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
-1. (a) A ordem **p** para os nós internos.
+1. **(a)** A ordem **p** para os nós internos.
 
 |Árvore B|Árvore B<sup>+</sup>|
 |-|-|
 |((p-1) * V) + ((p-1) * P<sub>d</sub>)) + (p * P<sub>a</sub>) &#8804; B<br>(9p - 9) + (7p - 7) + (6p) &#8804; 1024<br>22p &#8804; 1040 &#8756; **p = piso (1040 / 22)**|((p-1) * V) + (p * P<sub>a</sub>) &#8804; B<br>(9p - 9) + (6p) &#8804; 1024<br>15p &#8804; 1033 &#8756; **p = piso (1033 / 15)**|
 
-1. (b) A ordem **p<sub>folha</sub>** para os nós folhas.
+1. **(b)** A ordem **p<sub>folha</sub>** para os nós folhas.
 
-1. (c) A quantidade **n<sub>0</sub>** de valores do campo de indexação no Nível 0 da árvore (nó raiz).
+|Árvore B|Árvore B<sup>+</sup>|
+|-|-|
+|||
 
-1. (d) A quantidade **n<sub>1</sub>** de valores do campo de indexação no Nível 1 da árvore (nós folhas).
+1. **(c)** A quantidade **n<sub>0</sub>** de valores do campo de indexação no Nível 0 da árvore (nó raiz).
+
+|Árvore B|Árvore B<sup>+</sup>|
+|-|-|
+|||
+
+1. **(d)** A quantidade **n<sub>1</sub>** de valores do campo de indexação no Nível 1 da árvore (nós folhas).
+
+|Árvore B|Árvore B<sup>+</sup>|
+|-|-|
+|||
 
