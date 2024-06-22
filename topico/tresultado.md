@@ -83,3 +83,16 @@ Então:<br>
 Em adição:<br>
 O número de blocos de dados acessados via índice primário: 01 bloco.<br>
 O número de blocos de dados acessados via índice de agrupamento: pode ser maior que 01 bloco.
+
+#### Avaliação em 20/06/2024
+1. (a)
+
+|Árvore B|Árvore B<sup>+</sup>|
+|-|-|
+|((p-1) * V) + ((p-1) * P<sub>d</sub>)) + (p * P<sub>a</sub>) &#8804; B<br>(9p - 9) + (7p - 7) + (6p) &#8804; 1024<br>22p &#8804; 1040 &#8756; p = piso (1040 / 22)|((p-1) * V) + (p * P<sub>a<sub>) &#8804; B<br>(9p - 9) + (6p) &#8804; 1024<br>15p &#8804; 1033 &#8756; p = piso (1033 / 15)|
+|||
+
+
+
+3. 
+b.
