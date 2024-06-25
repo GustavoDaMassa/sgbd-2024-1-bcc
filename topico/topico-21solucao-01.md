@@ -7,7 +7,7 @@ Sejam: o tamanho do bloco B = 512 bytes, o tamanho do campo de indexação (camp
 
 (p * P) + ((p - 1) * V) ≤ B<br>
 (p * 6) + ((p - 1) * 9) ≤ 512<br>
-(15*p) ≤ 512 &#8756; p ≤ 512/15 &#8756; p ≤ 34.13<br>
+(15*p) ≤ 512 &#8756; p ≤ 521/15 &#8756; p ≤ 34.73<br>
 Então, **p = 34** para os nós internos da Árvore B+.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Obs.:</ins> Em exercício anterior, **p = 23** para Árvore B (com os mesmos parâmetros).
 
