@@ -116,25 +116,23 @@ B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
 
 |Questão|Resposta|
 |-|:-:|
-|Um único campo ...||
-|O fator de bloco ...||
-|Em um cenário ...||
-|A execução das operações ...||
-|Há escalonamentos inválidos ...||
-|A propriedade isolamento ...||
-|Escalonamentos não-seriais ...||
-|A cache (buffer pool) ...||
-|Os nós internos ...||
-|Os nós folhas ...||
-|Árvores B ...||
-|Índices secundários ...||
-|O conceito de registro ...||
-|A técnica hashing linear ...||
-|No hashing externo, se vários ...||
-|No hashing externo dinâmico ...||
-|Na organização de arquivos não-ordenados ...||
-|No gerenciamento de buffer ...||
-|Na clock policy ...||
-|Nem sempre um bloco ...||
-
-
+|Um único campo ...|01|
+|O fator de bloco ...|03|
+|Em um cenário ...|02|
+|A execução das operações ...|01|
+|Há escalonamentos inválidos ...|00|
+|A propriedade isolamento ...|00|
+|Escalonamentos não-seriais ...|01|
+|A cache (buffer pool) ...|01|
+|Os nós internos ...|01|
+|Os nós folhas ...|01|
+|Árvores B ...|02|
+|Índices secundários ...|02|
+|O conceito de registro ...|00|
+|A técnica hashing linear ...|02|
+|No hashing externo, se vários ...|01|
+|No hashing externo dinâmico ...|03|
+|Na organização de arquivos não-ordenados ...|03|
+|No gerenciamento de buffer ...|02|
+|Na clock policy ...|03|
+|Nem sempre um bloco ...|03|
