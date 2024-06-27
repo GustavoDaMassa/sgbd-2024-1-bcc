@@ -112,3 +112,29 @@ B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
 |-|-|
 |Nós internos e folhas estão 70% cheios:<br>&#9888; p = 0,7 * p<br>&#9888; p<sub>folha</sub> = 0,7 * p<sub>folha</sub><br><br>Há p nós em Nível 1.<br>Cada nó possui (p<sub>folha</sub> – 1) valores do campo de indexação.<br>n<sub>1</sub> = p * (p<sub>folha</sub> – 1)<br>**n<sub>1</sub> = (0.7 * piso(1040/22)) * ((0,7 * piso(1040/22)) – 1)**|Nós internos e folhas estão 70% cheios:<br>&#9888; p = 0,7 * p<br>&#9888; p<sub>folha</sub> = 0,7 * p<sub>folha</sub><br><br>Há p nós em Nível 1.<br>Cada nó possui (p<sub>folha</sub>) valores do campo de indexação.<br>n<sub>1</sub> = p * p<sub>folha</sub><br>**n<sub>1</sub> = (0.7 * piso(1033/15)) * (0,7 * piso(1018/16))**|
 
+#### `Avaliação em 27/06/2024`
+
+|Questão|Resposta|
+|-|:-:|
+|Um único campo ...||
+|O fator de bloco ...||
+|Em um cenário ...||
+|A execução das operações ...||
+|Há escalonamentos inválidos ...||
+|A propriedade isolamento ...||
+|Escalonamentos não-seriais ...||
+|A cache (buffer pool) ...||
+|Os nós internos ...||
+|Os nós folhas ...||
+|Árvores B ...||
+|Índices secundários ...||
+|O conceito de registro ...||
+|A técnica hashing linear ...||
+|No hashing externo, se vários ...||
+|No hashing externo dinâmico ...||
+|Na organização de arquivos não-ordenados ...||
+|No gerenciamento de buffer ...||
+|Na clock policy ...||
+|Nem sempre um bloco ...||
+
+
