@@ -71,7 +71,7 @@ Algoritmo para o bloqueio binário pela Transação T:
 
 #### &#9752;&#x270D;&#9745; <ins>`BLOQUEIO COMPARTILHADO/EXCLUSIVO`<ins>
 
-O bloqueio compartilhado/exclusivo é <ins>menos restritivo</ins> [quanto à concorrência]:<br>
+O bloqueio compartilhado/exclusivo é <ins>menos restritivo</ins> [quanto ao acesso ao dado]:<br>
 &#10004; Permite que diversas transações acessem o mesmo item X,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;... se as transações acessarem X <ins>apenas para fins de leitura</ins>, pois ...<br>
 &nbsp;&nbsp;&nbsp;&nbsp;... operações de leitura não são conflitantes entre si.<br>
