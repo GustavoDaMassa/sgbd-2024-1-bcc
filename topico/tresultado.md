@@ -136,3 +136,19 @@ B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
 |No gerenciamento de buffer ...|02|
 |Na clock policy ...|03|
 |Nem sempre um bloco ...|03|
+
+#### `Avaliação em 04/07/2024`
+
+|Escalonamento|Classificação|
+|-|:-:|
+|r2(X); r1(X); w1(X); r1(Y); w1(Y); w2(X); c2; c1;|RSAC|
+|r2(X); w2(X); r1(X); w1(X); r1(Y); w1(Y); c1; c2;|NR|
+|r2(X); w2(X); r1(X); w1(X); r1(Y); w1(Y); c2; c1;|R|
+|r2(X); w2(X); r1(X); w1(X); r1(Y); c2; w1(Y); c1;|R|
+|r2(X); w2(X); c2; r1(X); w1(X); r1(Y); w1(Y); c1;|RE|
+|r2(X); w2(X); r1(X); w1(X); c2; r1(Y); w1(Y); c1;|R|
+|r2(X); w2(X); r1(X); c2; w1(X); r1(Y); w1(Y); c1;|R|
+|r1(X); r2(X); w2(X); c2; w1(X); r1(Y); w1(Y); c1;|RE|
+|r2(X); r1(X); w1(X); r1(Y); w1(Y); c1; w2(X); c2;|RE|
+|r2(X); r1(X); w1(X); r1(Y); w1(Y); w2(X); c1; c2;|RSAC|
+
