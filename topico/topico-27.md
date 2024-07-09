@@ -54,8 +54,8 @@ A figura abaixo ilustra o protocolo 2PL para a Transação T<sub>x</sub> ...<br>
 + O protocolo 2PL garante a serialização de escalonamentos.
 ! NÃO É NECESSÁRIO TESTAR A SERIALIZAÇÂO DO ESCALONAMENTO.
 
-- Contudo, 2PL não permite todos os agendamentos serializáveis possíveis,
-- ..... alguns agendamentos serializáveis serão proibidos pelo protocolo.
+- Contudo, 2PL não permite todos os escalonamentos serializáveis possíveis,
+- ..... alguns escalonamentos serializáveis serão proibidos pelo protocolo.
 ```
 
 #### O protocolo 2PL PROMOVE A CONCORRÊNCIA ??
