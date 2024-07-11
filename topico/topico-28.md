@@ -94,6 +94,8 @@ Suponha que o item `X foi bloqueado por Tx`, e depois `Ty tenta bloquear X`:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... `Ty será cancelada` (abortada) [pelo SGBD] <ins>imediatamente</ins> e<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... `Ty será então reiniciada` [pelo SGBD] <ins>após algum atraso (_delay_)</ins>.<br>
 
+#### &#10004;&#10004; PROTOCOLO (TÉCNICA) `TIMEOUT` 
+
 #### &#10004;&#10004; PROTOCOLO (TÉCNICA) `ESPERA-CAUTELOSA` &#8212; _CAUTIOUS WAITING (CW)_
 
 Suponha que o item `X foi bloqueado por Tx`, e depois `Ty tenta bloquear X`:<br>
