@@ -155,6 +155,8 @@ O `Grafo de Espera` é um mecanismo para a detecção de _deadlocks_:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; (1) Ordenar a fila de espera por ordem de chegada,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... as transações estão habilitadas para bloquear um item na ordem em que solicitaram originalmente o bloqueio.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x270D; (2) Atribuir prioridades às transações na fila de espera,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... elevar a prioridade de uma transação quanto mais tempo ela espera, OU<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... elevar a prioridade de uma transação quanto mais ela é abortada para resolver _deadlocks_.<br>
-&#9918; As técnicas `esperar-ou-morrer` e `ferir-ou-esperar` promovem a ocorrência de `starvation`?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... elevar a prioridade de uma transação <ins>quanto mais tempo ela espera</ins>, OU<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... elevar a prioridade de uma transação <ins>quanto mais ela é abortada</ins> para resolver _deadlocks_.<br>
+&#9918; As técnicas `esperar-ou-morrer` e `ferir-ou-esperar` promovem a ocorrência de `starvation`?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... uma transação que foi abortada é riniciada com mesmo _timestamp_ original,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... o que reduz a possibilidade da mesma transação ser abortada repetidamente.
