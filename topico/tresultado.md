@@ -152,3 +152,7 @@ B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
 |r2(X); r1(X); w1(X); r1(Y); w1(Y); c1; w2(X); c2;|RE|
 |r2(X); r1(X); w1(X); r1(Y); w1(Y); w2(X); c1; c2;|RSAC|
 
+#### `Avaliação em 11/07/2024`
+
+<img src="../media/fig-av-20240711-a.jpg" width="200">
+<img src="../media/fig-av-20240711-b.jpg" width="200">
