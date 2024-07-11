@@ -154,5 +154,14 @@ B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
 
 #### `Avaliação em 11/07/2024`
 
-<img src="../media/fig-av-20240711-a.jpg" width="200">
-<img src="../media/fig-av-20240711-b.jpg" width="200">
+1.
+<img src="../media/fig-av-20240711-a.jpg" width="80">
+Sim, pois NÃO HÁ CICLO no grafo de precedência.<br>
+Escalonamentos seriais equivalentes em conflito:<br>
+T3 &#8658; T1 &#8658; T2<br>
+T3 &#8658; T2 &#8658; T1<br>
+<br>
+<img src="../media/fig-av-20240711-b.jpg" width="80">
+Não, pois HÁ CICLO no grafo de precedência.
+
+2. 1, 6
