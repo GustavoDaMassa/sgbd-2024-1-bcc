@@ -1,3 +1,9 @@
+[Tópico 28](./topico-28.md) - Processamento de Transações - _Deadlock_ e _starvation_<br>
+[Tópico 27](./topico-27.md) - Processamento de Transações - Concorrência baseada em bloqueio<br>
+[Tópico 26](./topico-26.md) - Processamento de Transações - Bloqueio de itens do banco de dados<br>
+[Tópico 25](./topico-25.md) - Processamento de Transações - Escalonamento quanto à serialização<br>
+[Tópico 24](./topico-24.md) - Processamento de Transações - Escalonamento quanto à recuperação<br>
+[Tópico 23](./topico-23.md) - Processamento de Transações - Escalonamento<br>
 [Tópico 22](./topico-22.md) - Processamento de Transações - Visão geral<br>
 [Tópico 21](./topico-21.md) - Estruturas de indexação (9/9) - Índice em árvore (3/3)<br>
 [Tópico 20](./topico-20.md) - Estruturas de indexação (8/9) - Índice em árvore (2/3)<br>

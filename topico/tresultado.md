@@ -2,7 +2,7 @@
 
 Clique [AQUI](../media/sgbd-2024-1-bcc-resumo.pdf) para ver as notas.
 
-#### Avaliação em 11/04/2024
+#### `Avaliação em 11/04/2024`
 Para minimizar o impacto causado ... cache<br>
 O princípio da localidade pode ser ...<br>
 Se a memória principal e a memória cache ...<br>
@@ -15,7 +15,7 @@ Em registros de tamanho variável ... O espaço livre está ... A operação de 
 Uma página em cache do banco de dados ...<br>
 O Sistema Gerenciador de Banco de Dados ...
 
-#### Avaliação em 14/04/2024
+#### `Avaliação em 14/04/2024`
 
 Sobre arquivos não ordenados, são aplicáveis:<br>
 &#x26BE; As organizações de registros ...<br>
@@ -36,7 +36,7 @@ Um arquivo tem r = 40.000 registros ...<br>
 &#x26BE; (c): ~~Função Teto &#8213; b = ⎡ (r * R) / bfr ⎤ = ⎡ 40000 * 89 / 1024 ⎤ = ⎡ 3476,6 ⎤ = 3477 blocos~~<br>
 &#x26BE; (c): Função Teto &#8213; b = ⎡ r / bfr ⎤ = ⎡ 40000  / 11 ⎤ = ⎡ 3636,36 ⎤ = 3637 blocos
 
-#### Avaliação em 02/05/2024
+#### `Avaliação em 02/05/2024`
 
 Sobre o hashing externo ... <br>
 &#x26BE; A presença de buckets de overflow ...<br>
@@ -57,7 +57,7 @@ Some as ... <br>
 Some as ... <br>
 &#x26BE; A função h<sub>j+1</sub>(K) ...
 
-#### Avaliação em 13/06/2024
+#### `Avaliação em 13/06/2024`
 
 1. Índice primário; índice de agrupamento; índice secundário.
 2. Índice secundário.
@@ -83,3 +83,72 @@ Então:<br>
 Em adição:<br>
 O número de blocos de dados acessados via índice primário: 01 bloco.<br>
 O número de blocos de dados acessados via índice de agrupamento: pode ser maior que 01 bloco.
+
+#### `Avaliação em 20/06/2024`
+
+B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
+
+1. **(a)** A ordem **p** para os nós internos.
+
+|Árvore B|Árvore B<sup>+</sup>|
+|-|-|
+|((p-1) * V) + ((p-1) * P<sub>d</sub>)) + (p * P<sub>a</sub>) &#8804; B<br>(9p - 9) + (7p - 7) + (6p) &#8804; 1024<br>22p &#8804; 1040 &#8756; **p = piso (1040/22)**|((p-1) * V) + (p * P<sub>a</sub>) &#8804; B<br>(9p - 9) + (6p) &#8804; 1024<br>15p &#8804; 1033 &#8756; **p = piso (1033/15)**|
+
+1. **(b)** A ordem **p<sub>folha</sub>** para os nós folhas.
+
+|Árvore B|Árvore B<sup>+</sup>|
+|-|-|
+|**p<sub>folha</sub> = p = piso (1040/22)**|( p<sub>folha</sub> * (P<sub>d</sub> + V) ) + P<sub>a</sub> &#8804; B<br>( p<sub>folha</sub> * (7 + 9) ) + 6 &#8804; 1024<br>16p<sub>folha</sub> &#8804; 1018 &#8756; **p<sub>folha</sub> = piso (1018/16)**|
+
+1. **(c)** A quantidade **n<sub>0</sub>** de valores do campo de indexação no **Nível 0** da árvore (nó raiz).
+
+|Árvore B|Árvore B<sup>+</sup>|
+|-|-|
+|Nós internos e folhas estão 70% cheios:<br>&#9888; p = 0,7 * p<br><br>Há apenas um nó em Nível 0.<br>Este nó possui (p – 1) valores do campo de indexação.<br>n<sub>0</sub> = 1 * (p – 1)<br>**n<sub>0</sub> = (0,7 * piso(1040/22)) – 1**|Nós internos e folhas estão 70% cheios:<br>&#9888; p = 0,7 * p<br><br>Há apenas um nó em Nível 0.<br>Este nó possui (p – 1) valores do campo de indexação.<br>n<sub>0</sub> = 1 * (p – 1)<br>**n<sub>0</sub> = (0,7 * piso(1033/15)) – 1**|
+
+1. **(d)** A quantidade **n<sub>1</sub>** de valores do campo de indexação no **Nível 1** da árvore (nós folhas).
+
+|Árvore B|Árvore B<sup>+</sup>|
+|-|-|
+|Nós internos e folhas estão 70% cheios:<br>&#9888; p = 0,7 * p<br>&#9888; p<sub>folha</sub> = 0,7 * p<sub>folha</sub><br><br>Há p nós em Nível 1.<br>Cada nó possui (p<sub>folha</sub> – 1) valores do campo de indexação.<br>n<sub>1</sub> = p * (p<sub>folha</sub> – 1)<br>**n<sub>1</sub> = (0.7 * piso(1040/22)) * ((0,7 * piso(1040/22)) – 1)**|Nós internos e folhas estão 70% cheios:<br>&#9888; p = 0,7 * p<br>&#9888; p<sub>folha</sub> = 0,7 * p<sub>folha</sub><br><br>Há p nós em Nível 1.<br>Cada nó possui (p<sub>folha</sub>) valores do campo de indexação.<br>n<sub>1</sub> = p * p<sub>folha</sub><br>**n<sub>1</sub> = (0.7 * piso(1033/15)) * (0,7 * piso(1018/16))**|
+
+#### `Avaliação em 27/06/2024`
+
+|Questão|Resposta|
+|-|:-:|
+|Um único campo ...|01|
+|O fator de bloco ...|03|
+|Em um cenário ...|02|
+|A execução das operações ...|01|
+|Há escalonamentos inválidos ...|00|
+|A propriedade isolamento ...|00|
+|Escalonamentos não-seriais ...|01|
+|A cache (buffer pool) ...|01|
+|Os nós internos ...|01|
+|Os nós folhas ...|01|
+|Árvores B ...|02|
+|Índices secundários ...|02|
+|O conceito de registro ...|00|
+|A técnica hashing linear ...|02|
+|No hashing externo, se vários ...|01|
+|No hashing externo dinâmico ...|03|
+|Na organização de arquivos não-ordenados ...|03|
+|No gerenciamento de buffer ...|02|
+|Na clock policy ...|03|
+|Nem sempre um bloco ...|03|
+
+#### `Avaliação em 04/07/2024`
+
+|Escalonamento|Classificação|
+|-|:-:|
+|r2(X); r1(X); w1(X); r1(Y); w1(Y); w2(X); c2; c1;|RSAC|
+|r2(X); w2(X); r1(X); w1(X); r1(Y); w1(Y); c1; c2;|NR|
+|r2(X); w2(X); r1(X); w1(X); r1(Y); w1(Y); c2; c1;|R|
+|r2(X); w2(X); r1(X); w1(X); r1(Y); c2; w1(Y); c1;|R|
+|r2(X); w2(X); c2; r1(X); w1(X); r1(Y); w1(Y); c1;|RE|
+|r2(X); w2(X); r1(X); w1(X); c2; r1(Y); w1(Y); c1;|R|
+|r2(X); w2(X); r1(X); c2; w1(X); r1(Y); w1(Y); c1;|R|
+|r1(X); r2(X); w2(X); c2; w1(X); r1(Y); w1(Y); c1;|RE|
+|r2(X); r1(X); w1(X); r1(Y); w1(Y); c1; w2(X); c2;|RE|
+|r2(X); r1(X); w1(X); r1(Y); w1(Y); w2(X); c1; c2;|RSAC|
+
