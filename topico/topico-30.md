@@ -69,12 +69,12 @@ Abaixo está uma classificação simples de falhas no contexto de banco de dados
 
 **`FALHA SEVERA DE DISCO.`** Em caso de falha [catastrófica] de disco, um método de recuperação ...<br>
 :sunflower: Restaurar uma cópia anterior do banco de dados ...<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cujo _backup_ foi feito anterior ao momento da falha (dias, semanas, ...).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cujo _backup_ foi feito anterior ao momento da falha (por exemplo, dias ou semanas antes).<br>
 :sunflower: Reconstruir [um estado de] o banco de dados <ins>mais atual possível</ins> ...<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ao reaplicar (refazer) as operações de transações confirmadas ..
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ao reaplicar (refazer) as operações de transações confirmadas ...<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... após o _backup_ do banco de dados e anterior ao momento da falha,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; desde que tais transações estejam disponíveis em _log_ ...<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... a partir de _backups_ de _log_.
 
 <hr style="border:2px solid blue">
 
