@@ -65,7 +65,7 @@ Abaixo está uma classificação simples de falhas no contexto de banco de dados
 
 <hr style="border:2px solid blue">
 
-#### &#9752;&#x270D;&#9745; <ins>SOBRE O PROCESSO DE RECUPERAÇÃO APÓS FALHAS</ins>
+#### &#9752;&#x270D;&#9745; <ins>EXEMPLOS DE PROCESSO DE RECUPERAÇÃO APÓS FALHAS</ins>
 
 **`FALHA SEVERA DE DISCO.`** Em caso de falha [catastrófica] de disco, um método de recuperação ...<br>
 :sunflower: Restaurar a última cópia do banco de dados ...<br>
@@ -75,6 +75,16 @@ Abaixo está uma classificação simples de falhas no contexto de banco de dados
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... após o _backup_ do banco de dados e anterior ao momento da falha,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; desde que tais transações estejam disponíveis em _log_ ...<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... a partir de _backups_ de _log_.
+
+**`FALHA DE TRANSAÇÃO.`** Uma transação pode causar uma inconsistência no banco de dados ...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... as entradas mantidas no _log_ [_online_]são analisadas para determinar as ações apropriadas à recuperação.<br>
+:sunflower: Identificar a operação [da transação] que danifica o banco de dados.<br>
+:sunflower: Desfazer os efeitos dessa operação e anteriores da transação ...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a partir de registros no _log_.<br>
+:sunflower: Identificar e desfazer as transações que sofrem aborto em cascata.<br>
+:sunflower: Refazer algumas operações para restaurar um estado consistente do banco de dados ...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se transações foram confirmadas,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mas algumas de suas operações de escrita ainda não foram gravadas no disco.
 
 <hr style="border:2px solid blue">
 
