@@ -26,7 +26,7 @@ No <ins>contexto de FALHAS</ins> em bancos de dados:<br>
 ! ... MAIS RECENTE POSSÍVEL antes do momento da falha.
 ```
 
-O sistema deve manter informações sobre as alterações aplicadas aos itens de dados pelas diversas transações:<br>
+O SGBD <ins>registra o conteúdo das alterações</ins> aplicadas aos itens de dados pelas diversas transações:<br>
 &#10004; Em adição ao banco de dados propriamente dito ...<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9918; ... um histórico [da sequência] de atualizações aos dados do banco de dados é gravado.
 
