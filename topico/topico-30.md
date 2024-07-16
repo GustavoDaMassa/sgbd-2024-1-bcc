@@ -26,6 +26,9 @@ No <ins>contexto de FALHAS</ins> em bancos de dados:<br>
 ! ... MAIS RECENTE POSSÍVEL antes do momento da falha.
 ```
 
+O sistema deve manter informações sobre as alterações que foram aplicadas aos itens de dados pelas diversas transações ... <br>
+&#10004; Um histórico [da sequência] de atualizações aplicadas aos dados do banco de dados.
+
 <hr style="border:2px solid blue">
 
 #### &#9752;&#x270D;&#9745; <ins>TIPOS DE FALHAS</ins>
