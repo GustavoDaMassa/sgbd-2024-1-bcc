@@ -77,7 +77,8 @@ Abaixo está uma classificação simples de falhas no contexto de banco de dados
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... a partir de _backups_ de _log_.
 
 **`FALHA DE TRANSAÇÃO.`** Uma transação pode causar uma inconsistência no banco de dados ...<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... as entradas mantidas no _log_ [_online_]são analisadas para determinar as ações apropriadas à recuperação.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... as entradas mantidas no _log_ [_online_]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ... são analisadas para determinar as ações apropriadas à recuperação.<br>
 :sunflower: Identificar a operação [da transação] que danifica o banco de dados.<br>
 :sunflower: Desfazer os efeitos dessa operação e anteriores da transação ...<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a partir de registros no _log_.<br>
