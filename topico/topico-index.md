@@ -1,3 +1,4 @@
+[Tópico 32](./topico-32.md) - Recuperação Após Falhas - Exercícios<br>
 [Tópico 31](./topico-31.md) - Recuperação Após Falhas - Políticas de atualização<br>
 [Tópico 30](./topico-30.md) - Recuperação Após Falhas - Visão geral<br>
 [Tópico 29](./topico-29.md) - Processamento de Transações - Concorrência baseada em _timestamp_<br>
