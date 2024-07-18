@@ -47,7 +47,7 @@
 (a) uma transação escreve itens que foram escritos apenas por uma transação confirmada.<br>
 (b) uma transação escreve um item que foi escrito anteriormente por uma transação não confirmada.<br>
 (c) uma transação lê um item que foi escrito anteriormente por uma transação não confirmada.<br>
-(d) ambos (b) e (c).<br>
+(d) ambos (b) e (c).\*<br>
 
 **Questão 09)** Para lidar com falhas de mídia (disco), é necessário ...<br>
 (a) que o SGBD apenas execute transações em um ambiente de usuário único.<br>
