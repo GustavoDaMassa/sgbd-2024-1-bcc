@@ -166,3 +166,17 @@ Não, pois HÁ CICLO no grafo de precedência.<br>
 
 **Questão 02**<br>
 1, 6
+
+#### `Avaliação em 12/07/2024`
+
+1. Obtém todos os bloqueios dentro ... 07
+2. Obtém todos os bloqueios fora ... 08
+3. Possui fase de crescimento ... 07
+4. Possui fase de encolhimento ... 13
+5. É livre de _deadlock_ ... 08
+6. Não é livre de _dadlock_ ... 07
+7. Libera os bloqueios exclusivos ... 06
+8. Libera os bloqueios compartilhados ... 02
+9. É livre de _starvation_ ... 00
+10. Garante a ... 15
+
