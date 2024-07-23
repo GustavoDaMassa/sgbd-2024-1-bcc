@@ -1,6 +1,6 @@
 ### [Tópico 01] - Ambientação com a disciplina (objetivos e metodologia)
 
-Leia o [plano](../media/sgbd-2024-1-bcc-plano.pdf).<br>
+Leia o [plano](../media/sgbd-2024-1-bcc-plano-novo.pdf).<br>
 Esclareça suas dúvidas.<br>
 
 ### Atividade 
