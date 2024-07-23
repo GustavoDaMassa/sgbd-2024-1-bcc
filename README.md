@@ -2,7 +2,7 @@
 
 ### `Bem-vindo(a) !!`
 
-O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano.pdf).<br>
+O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano-novo.pdf).<br>
 
 ### `Para refletir ...`
 
