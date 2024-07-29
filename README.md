@@ -15,6 +15,7 @@ O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano-nov
 - [Tópico 32](./topico/topico-32.md)
 - [Tópico 33](./topico/topico-33.md)
 - [Tópico 34](./topico/topico-34.md)
+- [Tópico 35](./topico/topico-35.md)
 - [Todos os tópicos](topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 
