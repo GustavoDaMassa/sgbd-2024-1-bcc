@@ -167,7 +167,7 @@ Não, pois HÁ CICLO no grafo de precedência.<br>
 **Questão 02**<br>
 1, 6
 
-#### `Avaliação em 12/07/2024`
+#### `Avaliação em 18/07/2024`
 
 1. Obtém todos os bloqueios dentro ... 07
 2. Obtém todos os bloqueios fora ... 08
