@@ -152,3 +152,31 @@ B = 1024 bytes ; V = 9 bytes ; P<sub>a</sub> = 6 bytes ; P<sub>d</sub> = 7 bytes
 |r2(X); r1(X); w1(X); r1(Y); w1(Y); c1; w2(X); c2;|RE|
 |r2(X); r1(X); w1(X); r1(Y); w1(Y); w2(X); c1; c2;|RSAC|
 
+#### `Avaliação em 11/07/2024`
+
+**Questão 01**<br>
+<img src="../media/fig-av-20240711-a.jpg" width="80"><br>
+Sim, pois NÃO HÁ CICLO no grafo de precedência.<br>
+Escalonamentos seriais equivalentes em conflito:<br>
+T3 &#8658; T1 &#8658; T2<br>
+T3 &#8658; T2 &#8658; T1<br>
+<br>
+<img src="../media/fig-av-20240711-b.jpg" width="80"><br>
+Não, pois HÁ CICLO no grafo de precedência.<br>
+
+**Questão 02**<br>
+1, 6
+
+#### `Avaliação em 18/07/2024`
+
+1. Obtém todos os bloqueios dentro ... 07
+2. Obtém todos os bloqueios fora ... 08
+3. Possui fase de crescimento ... 07
+4. Possui fase de encolhimento ... 13
+5. É livre de _deadlock_ ... 08
+6. Não é livre de _dadlock_ ... 07
+7. Libera os bloqueios exclusivos ... 06
+8. Libera os bloqueios compartilhados ... 02
+9. É livre de _starvation_ ... 00
+10. Garante a ... 15
+

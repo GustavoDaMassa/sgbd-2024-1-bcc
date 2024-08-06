@@ -2,7 +2,7 @@
 
 ### `Bem-vindo(a) !!`
 
-O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano.pdf).<br>
+O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano-novo.pdf).<br>
 
 ### `Para refletir ...`
 
@@ -10,13 +10,12 @@ O plano da disciplina está disponível [aqui](./media/sgbd-2024-1-bcc-plano.pdf
 
 ### `Tópicos ativos ...`
 
-- [Tópico 22](./topico/topico-22.md)
-- [Tópico 23](./topico/topico-23.md)
-- [Tópico 24](./topico/topico-24.md)
-- [Tópico 25](./topico/topico-25.md)
-- [Tópico 26](./topico/topico-26.md)
-- [Tópico 27](./topico/topico-27.md)
-- [Tópico 28](./topico/topico-28.md)
+- [Tópico 30](./topico/topico-30.md)
+- [Tópico 31](./topico/topico-31.md)
+- [Tópico 32](./topico/topico-32.md)
+- [Tópico 33](./topico/topico-33.md)
+- [Tópico 34](./topico/topico-34.md)
+- [Tópico 35](./topico/topico-35.md)
 - [Todos os tópicos](topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 

@@ -104,7 +104,8 @@ No <ins>**2PL CONSERVADOR**</ins>:<br>
 No <ins>**2PL ESTRITO**</ins>:<br>
 &#x270D; Uma transação T libera seus bloqueios exclusivos (de gravação) SOMENTE após ser confirmada ou abortada:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... ou seja, a liberação de bloqueios exclusivos ocorre apenas no final da transação.<br>
-&#x270D; O 2PL ESTRITO conduz a <ins>escalonamentos estritos quanto à recuperabilidade</ins>.<br>
+&#x270D; O 2PL ESTRITO conduz a <ins>escalonamentos estritos quanto à recuperabilidade</ins>:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... 2PL Básico e Conservador não garantem escalonamentos recuperáveis.<br>
 &#x270D; O 2PL ESTRITO <ins>não é</ins> um protocolo livre de _deadlock_ (impasse).<br>
 &#x270D; O 2PL ESTRITO é ilustrado na figura abaixo.
 
